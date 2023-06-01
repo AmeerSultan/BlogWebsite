@@ -1,0 +1,56 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore built or compiled files
+dist/
+build/
+
+# Ignore environment variables
+.env
+
+# Ignore npm package lock files
+package-lock.json
+yarn.lock
+
+# Ignore editor or IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore local development configuration files
+config/local.js
+config/local.json
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore test coverage reports
+coverage/
+.nyc_output/
+
+# Ignore generated documentation
+docs/
+
+# Ignore specific files or directories
+file.ext
+directory/
+
+# Ignore dependencies installed via npm or yarn
+/.pnp/
+.pnp.js
+
+# Ignore Jest snapshots
+__snapshots__/
+
+# Ignore TypeScript declaration files
+*.d.ts
